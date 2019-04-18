@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EEA7CDB722690CC100A58353 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA7CDB622690CC100A58353 /* SearchViewController.swift */; };
+		EEA7CDB922690CED00A58353 /* MessagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA7CDB822690CED00A58353 /* MessagingViewController.swift */; };
+		EEA7CDBB22690CFD00A58353 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA7CDBA22690CFD00A58353 /* AccountViewController.swift */; };
 		EED07B03225DB8BF007EC678 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED07B02225DB8BF007EC678 /* AppDelegate.swift */; };
 		EED07B05225DB8BF007EC678 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED07B04225DB8BF007EC678 /* CalendarViewController.swift */; };
 		EED07B08225DB8BF007EC678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED07B06225DB8BF007EC678 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EEA7CDB622690CC100A58353 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		EEA7CDB822690CED00A58353 /* MessagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingViewController.swift; sourceTree = "<group>"; };
+		EEA7CDBA22690CFD00A58353 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		EED07AFF225DB8BF007EC678 /* YouthPrep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouthPrep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED07B02225DB8BF007EC678 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EED07B04225DB8BF007EC678 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +63,9 @@
 				EED07B02225DB8BF007EC678 /* AppDelegate.swift */,
 				EED07B04225DB8BF007EC678 /* CalendarViewController.swift */,
 				EED07B06225DB8BF007EC678 /* Main.storyboard */,
+				EEA7CDBA22690CFD00A58353 /* AccountViewController.swift */,
+				EEA7CDB822690CED00A58353 /* MessagingViewController.swift */,
+				EEA7CDB622690CC100A58353 /* SearchViewController.swift */,
 				EED07B09225DB8C3007EC678 /* Assets.xcassets */,
 				EED07B0B225DB8C3007EC678 /* LaunchScreen.storyboard */,
 				EED07B0E225DB8C3007EC678 /* Info.plist */,
@@ -135,6 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEA7CDB722690CC100A58353 /* SearchViewController.swift in Sources */,
+				EEA7CDBB22690CFD00A58353 /* AccountViewController.swift in Sources */,
+				EEA7CDB922690CED00A58353 /* MessagingViewController.swift in Sources */,
 				EED07B05225DB8BF007EC678 /* CalendarViewController.swift in Sources */,
 				EED07B03225DB8BF007EC678 /* AppDelegate.swift in Sources */,
 			);
