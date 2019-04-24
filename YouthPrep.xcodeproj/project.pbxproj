@@ -10,6 +10,9 @@
 		EEA7CDB722690CC100A58353 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA7CDB622690CC100A58353 /* SearchViewController.swift */; };
 		EEA7CDB922690CED00A58353 /* MessagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA7CDB822690CED00A58353 /* MessagingViewController.swift */; };
 		EEA7CDBB22690CFD00A58353 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA7CDBA22690CFD00A58353 /* AccountViewController.swift */; };
+		EEC4179A226FA83700128E3A /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC41799226FA83700128E3A /* CalendarView.swift */; };
+		EEC4179C226FA84B00128E3A /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC4179B226FA84B00128E3A /* MonthView.swift */; };
+		EEC4179E226FA86000128E3A /* WeekdaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC4179D226FA86000128E3A /* WeekdaysView.swift */; };
 		EED07B03225DB8BF007EC678 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED07B02225DB8BF007EC678 /* AppDelegate.swift */; };
 		EED07B05225DB8BF007EC678 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED07B04225DB8BF007EC678 /* CalendarViewController.swift */; };
 		EED07B08225DB8BF007EC678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED07B06225DB8BF007EC678 /* Main.storyboard */; };
@@ -21,6 +24,9 @@
 		EEA7CDB622690CC100A58353 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		EEA7CDB822690CED00A58353 /* MessagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingViewController.swift; sourceTree = "<group>"; };
 		EEA7CDBA22690CFD00A58353 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		EEC41799226FA83700128E3A /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		EEC4179B226FA84B00128E3A /* MonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
+		EEC4179D226FA86000128E3A /* WeekdaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdaysView.swift; sourceTree = "<group>"; };
 		EED07AFF225DB8BF007EC678 /* YouthPrep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouthPrep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED07B02225DB8BF007EC678 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EED07B04225DB8BF007EC678 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +68,9 @@
 			children = (
 				EED07B02225DB8BF007EC678 /* AppDelegate.swift */,
 				EED07B04225DB8BF007EC678 /* CalendarViewController.swift */,
+				EEC41799226FA83700128E3A /* CalendarView.swift */,
+				EEC4179B226FA84B00128E3A /* MonthView.swift */,
+				EEC4179D226FA86000128E3A /* WeekdaysView.swift */,
 				EED07B06225DB8BF007EC678 /* Main.storyboard */,
 				EEA7CDBA22690CFD00A58353 /* AccountViewController.swift */,
 				EEA7CDB822690CED00A58353 /* MessagingViewController.swift */,
@@ -146,9 +155,12 @@
 			files = (
 				EEA7CDB722690CC100A58353 /* SearchViewController.swift in Sources */,
 				EEA7CDBB22690CFD00A58353 /* AccountViewController.swift in Sources */,
+				EEC4179A226FA83700128E3A /* CalendarView.swift in Sources */,
 				EEA7CDB922690CED00A58353 /* MessagingViewController.swift in Sources */,
 				EED07B05225DB8BF007EC678 /* CalendarViewController.swift in Sources */,
+				EEC4179E226FA86000128E3A /* WeekdaysView.swift in Sources */,
 				EED07B03225DB8BF007EC678 /* AppDelegate.swift in Sources */,
+				EEC4179C226FA84B00128E3A /* MonthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
