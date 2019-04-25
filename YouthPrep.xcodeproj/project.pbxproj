@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE7EFDE8227239FF008E4E0B /* MathematicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7EFDE7227239FF008E4E0B /* MathematicsViewController.swift */; };
 		EE9FAE292270D3C80046591B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9FAE282270D3C80046591B /* SearchViewController.swift */; };
 		EEA7CDB922690CED00A58353 /* MessagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA7CDB822690CED00A58353 /* MessagingViewController.swift */; };
 		EEA7CDBB22690CFD00A58353 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA7CDBA22690CFD00A58353 /* AccountViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE7EFDE7227239FF008E4E0B /* MathematicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathematicsViewController.swift; sourceTree = "<group>"; };
 		EE9FAE282270D3C80046591B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		EEA7CDB822690CED00A58353 /* MessagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingViewController.swift; sourceTree = "<group>"; };
 		EEA7CDBA22690CFD00A58353 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE7EFDE922723AD0008E4E0B /* SubjectViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EE7EFDE7227239FF008E4E0B /* MathematicsViewController.swift */,
+			);
+			path = SubjectViewControllers;
+			sourceTree = "<group>";
+		};
 		EED07AF6225DB8BF007EC678 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +82,7 @@
 				EEC4179B226FA84B00128E3A /* MonthView.swift */,
 				EEC4179D226FA86000128E3A /* WeekdaysView.swift */,
 				EED07B06225DB8BF007EC678 /* Main.storyboard */,
+				EE7EFDE922723AD0008E4E0B /* SubjectViewControllers */,
 				EE9FAE282270D3C80046591B /* SearchViewController.swift */,
 				EEA7CDBA22690CFD00A58353 /* AccountViewController.swift */,
 				EEA7CDB822690CED00A58353 /* MessagingViewController.swift */,
@@ -158,6 +169,7 @@
 				EE9FAE292270D3C80046591B /* SearchViewController.swift in Sources */,
 				EEA7CDB922690CED00A58353 /* MessagingViewController.swift in Sources */,
 				EED07B05225DB8BF007EC678 /* CalendarViewController.swift in Sources */,
+				EE7EFDE8227239FF008E4E0B /* MathematicsViewController.swift in Sources */,
 				EEC4179E226FA86000128E3A /* WeekdaysView.swift in Sources */,
 				EED07B03225DB8BF007EC678 /* AppDelegate.swift in Sources */,
 				EEC4179C226FA84B00128E3A /* MonthView.swift in Sources */,
