@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EEA7CDB722690CC100A58353 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA7CDB622690CC100A58353 /* SearchViewController.swift */; };
+		EE9FAE292270D3C80046591B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9FAE282270D3C80046591B /* SearchViewController.swift */; };
 		EEA7CDB922690CED00A58353 /* MessagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA7CDB822690CED00A58353 /* MessagingViewController.swift */; };
 		EEA7CDBB22690CFD00A58353 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA7CDBA22690CFD00A58353 /* AccountViewController.swift */; };
 		EEC4179A226FA83700128E3A /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC41799226FA83700128E3A /* CalendarView.swift */; };
@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EEA7CDB622690CC100A58353 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		EE9FAE282270D3C80046591B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		EEA7CDB822690CED00A58353 /* MessagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingViewController.swift; sourceTree = "<group>"; };
 		EEA7CDBA22690CFD00A58353 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		EEC41799226FA83700128E3A /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
@@ -72,9 +72,9 @@
 				EEC4179B226FA84B00128E3A /* MonthView.swift */,
 				EEC4179D226FA86000128E3A /* WeekdaysView.swift */,
 				EED07B06225DB8BF007EC678 /* Main.storyboard */,
+				EE9FAE282270D3C80046591B /* SearchViewController.swift */,
 				EEA7CDBA22690CFD00A58353 /* AccountViewController.swift */,
 				EEA7CDB822690CED00A58353 /* MessagingViewController.swift */,
-				EEA7CDB622690CC100A58353 /* SearchViewController.swift */,
 				EED07B09225DB8C3007EC678 /* Assets.xcassets */,
 				EED07B0B225DB8C3007EC678 /* LaunchScreen.storyboard */,
 				EED07B0E225DB8C3007EC678 /* Info.plist */,
@@ -153,9 +153,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEA7CDB722690CC100A58353 /* SearchViewController.swift in Sources */,
 				EEA7CDBB22690CFD00A58353 /* AccountViewController.swift in Sources */,
 				EEC4179A226FA83700128E3A /* CalendarView.swift in Sources */,
+				EE9FAE292270D3C80046591B /* SearchViewController.swift in Sources */,
 				EEA7CDB922690CED00A58353 /* MessagingViewController.swift in Sources */,
 				EED07B05225DB8BF007EC678 /* CalendarViewController.swift in Sources */,
 				EEC4179E226FA86000128E3A /* WeekdaysView.swift in Sources */,
