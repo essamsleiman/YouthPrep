@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE1CB979227519F9001458D5 /* SatPrepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1CB978227519F9001458D5 /* SatPrepViewController.swift */; };
 		EE7EFDE8227239FF008E4E0B /* MathematicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7EFDE7227239FF008E4E0B /* MathematicsViewController.swift */; };
 		EE7EFDEB22723ED6008E4E0B /* EnglishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7EFDEA22723ED6008E4E0B /* EnglishViewController.swift */; };
 		EE7EFDED22723FEB008E4E0B /* ScienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7EFDEC22723FEB008E4E0B /* ScienceViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE1CB978227519F9001458D5 /* SatPrepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatPrepViewController.swift; sourceTree = "<group>"; };
 		EE7EFDE7227239FF008E4E0B /* MathematicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathematicsViewController.swift; sourceTree = "<group>"; };
 		EE7EFDEA22723ED6008E4E0B /* EnglishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishViewController.swift; sourceTree = "<group>"; };
 		EE7EFDEC22723FEB008E4E0B /* ScienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceViewController.swift; sourceTree = "<group>"; };
@@ -59,9 +61,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE1CB9772275193B001458D5 /* CalendarClasses */ = {
+			isa = PBXGroup;
+			children = (
+				EEC41799226FA83700128E3A /* CalendarView.swift */,
+				EEC4179B226FA84B00128E3A /* MonthView.swift */,
+				EEC4179D226FA86000128E3A /* WeekdaysView.swift */,
+			);
+			path = CalendarClasses;
+			sourceTree = "<group>";
+		};
 		EE7EFDE922723AD0008E4E0B /* SubjectViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				EED07B04225DB8BF007EC678 /* CalendarViewController.swift */,
+				EE1CB978227519F9001458D5 /* SatPrepViewController.swift */,
 				EE7EFDF2227241D7008E4E0B /* ComputerScienceViewController.swift */,
 				EE7EFDF022724181008E4E0B /* ForeignLanguageViewController.swift */,
 				EE7EFDEC22723FEB008E4E0B /* ScienceViewController.swift */,
@@ -91,17 +105,14 @@
 		EED07B01225DB8BF007EC678 /* YouthPrep */ = {
 			isa = PBXGroup;
 			children = (
-				EED07B02225DB8BF007EC678 /* AppDelegate.swift */,
-				EED07B04225DB8BF007EC678 /* CalendarViewController.swift */,
-				EEC41799226FA83700128E3A /* CalendarView.swift */,
-				EEC4179B226FA84B00128E3A /* MonthView.swift */,
-				EEC4179D226FA86000128E3A /* WeekdaysView.swift */,
 				EED07B06225DB8BF007EC678 /* Main.storyboard */,
+				EE1CB9772275193B001458D5 /* CalendarClasses */,
 				EE7EFDE922723AD0008E4E0B /* SubjectViewControllers */,
 				EE9FAE282270D3C80046591B /* SearchViewController.swift */,
 				EEA7CDBA22690CFD00A58353 /* AccountViewController.swift */,
 				EEA7CDB822690CED00A58353 /* MessagingViewController.swift */,
 				EED07B09225DB8C3007EC678 /* Assets.xcassets */,
+				EED07B02225DB8BF007EC678 /* AppDelegate.swift */,
 				EED07B0B225DB8C3007EC678 /* LaunchScreen.storyboard */,
 				EED07B0E225DB8C3007EC678 /* Info.plist */,
 			);
@@ -193,6 +204,7 @@
 				EED07B03225DB8BF007EC678 /* AppDelegate.swift in Sources */,
 				EE7EFDF3227241D7008E4E0B /* ComputerScienceViewController.swift in Sources */,
 				EEC4179C226FA84B00128E3A /* MonthView.swift in Sources */,
+				EE1CB979227519F9001458D5 /* SatPrepViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
