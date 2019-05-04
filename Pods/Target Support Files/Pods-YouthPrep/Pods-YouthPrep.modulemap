@@ -1,0 +1,6 @@
+framework module Pods_YouthPrep {
+  umbrella header "Pods-YouthPrep-umbrella.h"
+
+  export *
+  module * { export * }
+}
