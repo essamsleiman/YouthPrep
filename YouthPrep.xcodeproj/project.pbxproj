@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		41C3F5D6227D5F6F00FA0FC0 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 41C3F5D5227D5F6F00FA0FC0 /* GoogleService-Info (1).plist */; };
+		41743AF0227D6C0F00D2032D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41743AEF227D6C0F00D2032D /* GoogleService-Info.plist */; };
 		9359705B2A141ED04E94200F /* Pods_YouthPrep.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067ECC6AC183817021886799 /* Pods_YouthPrep.framework */; };
 		EE1CB979227519F9001458D5 /* SatPrepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1CB978227519F9001458D5 /* SatPrepViewController.swift */; };
 		EE7EFDE8227239FF008E4E0B /* MathematicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7EFDE7227239FF008E4E0B /* MathematicsViewController.swift */; };
@@ -32,7 +32,7 @@
 /* Begin PBXFileReference section */
 		067ECC6AC183817021886799 /* Pods_YouthPrep.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YouthPrep.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F47BAD8BC41B48C3E8A2C0D /* Pods-YouthPrep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouthPrep.debug.xcconfig"; path = "Target Support Files/Pods-YouthPrep/Pods-YouthPrep.debug.xcconfig"; sourceTree = "<group>"; };
-		41C3F5D5227D5F6F00FA0FC0 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (1).plist"; path = "../../../Downloads/GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		41743AEF227D6C0F00D2032D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EE1CB978227519F9001458D5 /* SatPrepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatPrepViewController.swift; sourceTree = "<group>"; };
 		EE7EFDE7227239FF008E4E0B /* MathematicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathematicsViewController.swift; sourceTree = "<group>"; };
 		EE7EFDEA22723ED6008E4E0B /* EnglishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishViewController.swift; sourceTree = "<group>"; };
@@ -82,7 +82,6 @@
 				2F47BAD8BC41B48C3E8A2C0D /* Pods-YouthPrep.debug.xcconfig */,
 				EF882B54FCDF4FFFD6F1A8C8 /* Pods-YouthPrep.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -140,9 +139,9 @@
 				EEA7CDB822690CED00A58353 /* MessagingViewController.swift */,
 				EED07B09225DB8C3007EC678 /* Assets.xcassets */,
 				EED07B02225DB8BF007EC678 /* AppDelegate.swift */,
+				41743AEF227D6C0F00D2032D /* GoogleService-Info.plist */,
 				EED07B0B225DB8C3007EC678 /* LaunchScreen.storyboard */,
 				EED07B0E225DB8C3007EC678 /* Info.plist */,
-				41C3F5D5227D5F6F00FA0FC0 /* GoogleService-Info (1).plist */,
 			);
 			path = YouthPrep;
 			sourceTree = "<group>";
@@ -208,9 +207,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EED07B0D225DB8C3007EC678 /* LaunchScreen.storyboard in Resources */,
+				41743AF0227D6C0F00D2032D /* GoogleService-Info.plist in Resources */,
 				EED07B0A225DB8C3007EC678 /* Assets.xcassets in Resources */,
 				EED07B08225DB8BF007EC678 /* Main.storyboard in Resources */,
-				41C3F5D6227D5F6F00FA0FC0 /* GoogleService-Info (1).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
