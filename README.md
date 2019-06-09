@@ -2,6 +2,9 @@
 
 YouthPrep is an app to streamline the private tutoring business. It will look at points of conflict and tedious work that arise in private tutoring and automate them! 
 
+This project is being created by Ali Kazmi and Essam Sleiman
+
+
 Some features:
 
   A calendar will make the process of schedule matching between tutors and clients less chaotic. Not only will this make recurring sessions easier, but it opens up the possibility of tutoring on demand
@@ -16,3 +19,4 @@ Some features:
 
 
 We will add value and convenince to tutoring through this app, and scale our own network of tutors by launching on several college campuses nationwide this fall. 
+
